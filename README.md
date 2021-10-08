@@ -25,7 +25,7 @@ pip install -r requirements.txt
 As next step, we will download the ALFRED data using the script `scripts/download_alfred_data.sh` as follows:
 
 ```bash
-sh scripts/donwload_alfred_data.sh json_feat
+sh scripts/download_alfred_data.sh json_feat
 ```
 
 Before doing so, make sure that you have installed `p7zip` because is used to extract the trajectory files.

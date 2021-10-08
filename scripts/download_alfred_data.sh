@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Navigating to storage/data/alfred/"
+
+cd storage/data/alfred
+
 # Install 7z
 echo "Checking for 7z (might require installation)..."
 
@@ -39,3 +43,4 @@ else
     echo "Failed: Usage download_data.sh json | json_feat | full"
     exit 1
 fi
+
